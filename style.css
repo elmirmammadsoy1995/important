@@ -292,4 +292,33 @@ a:hover {
   font-size: 18px;
   font-weight: 700;
   color: #fffcf8;
+}
+
+footer .box {
+  display: flex;
+  padding: 15px 0;
+}
+footer .box h6 {
+  font-size: 18px;
+  color: #595966;
+  word-spacing: 1px;
+}
+footer .box ul {
+  display: flex;
+  justify-content: center;
+}
+footer .box ul li {
+  font-size: 18px;
+  padding: 12px 15px;
+  margin: 0 10px;
+  color: #ffffff;
+  background-color: #212529;
+  border-radius: 50%;
+}
+footer .box h5 {
+  font-size: 18px;
+  margin-right: 27px;
+}
+footer .box:hover li, footer .box:hover h5 {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
