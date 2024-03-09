@@ -178,4 +178,63 @@ a:hover {
   color: #fffefd;
   padding: 35px 30px;
   line-height: 1.1;
+}
+
+#team {
+  background-color: #f8f9fa;
+}
+#team h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #212529;
+  margin: 20px 0 20px;
+}
+#team h3 {
+  font-size: 18px;
+  color: #70757d;
+  margin-bottom: 60px;
+}
+#team .box {
+  text-align: center;
+}
+#team .box .imgbox {
+  width: 220px;
+  border: 8px solid #dfe0e1;
+  border-radius: 50%;
+}
+#team .box .textbox {
+  width: auto;
+}
+#team .box .textbox h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #212529;
+  margin: 20px 0 10px;
+}
+#team .box .textbox h4 {
+  font-size: 18px;
+  color: #707981;
+}
+#team .box ul {
+  display: flex;
+  justify-content: center;
+}
+#team .box ul li {
+  font-size: 14px;
+  color: white;
+  background-color: #212529;
+  border-radius: 50%;
+  padding: 12px 14px;
+  margin: 20px 10px 50px;
+}
+#team .box ul:hover li {
+  cursor: pointer;
+}
+#team .textbox {
+  width: 780px;
+}
+#team .textbox p {
+  font-size: 19px;
+  color: #74797f;
+  line-height: 1.5;
 }/*# sourceMappingURL=style.css.map */
