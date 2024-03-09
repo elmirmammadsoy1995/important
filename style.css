@@ -118,4 +118,64 @@ a:hover {
   font-size: 19px;
   color: #8c9299;
   margin-top: 10px;
+}
+
+#about .minibox {
+  width: auto;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+#about .minibox h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #212529;
+}
+#about .minibox h4 {
+  font-size: 18px;
+  color: #7d7e81;
+  margin: 20px 0;
+}
+#about .box {
+  margin-bottom: 80px;
+}
+#about .box .textbox {
+  width: 450px;
+  padding: 0 10px 40px 20px;
+  letter-spacing: 0.5px;
+  margin-left: 65px;
+}
+#about .box .textbox h2, #about .box .textbox h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 15px;
+}
+#about .box .textbox p {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.6;
+}
+#about .box .imgbox {
+  width: 156px;
+  height: 156px;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+  margin-left: 60px;
+}
+#about .box .march, #about .box .july {
+  margin-right: 50px;
+}
+#about .wdth {
+  width: 156px;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+  background-color: #ffc800;
+  margin-right: 565px;
+}
+#about .wdth h5 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fffefd;
+  padding: 35px 30px;
+  line-height: 1.1;
 }/*# sourceMappingURL=style.css.map */
