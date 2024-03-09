@@ -86,4 +86,36 @@ a:hover {
   font-size: 18px;
   color: #6c757d;
   line-height: 1.5;
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+}
+#portfolio h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #212529;
+}
+#portfolio h3 {
+  font-size: 18px;
+  color: #8b9298;
+  margin: 25px 0 70px;
+}
+#portfolio .box {
+  display: inline-block;
+  background-color: white;
+  margin-bottom: 20px;
+}
+#portfolio .box .textbox {
+  padding: 20px;
+}
+#portfolio .box .textbox h2 {
+  font-size: 27px;
+  font-weight: 700;
+  color: #212529;
+}
+#portfolio .box .textbox h4 {
+  font-size: 19px;
+  color: #8c9299;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
