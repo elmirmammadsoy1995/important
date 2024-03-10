@@ -16,7 +16,7 @@ header .menu {
   display: flex;
   background-color: #212529;
   width: 100%;
-  padding: 25px 90px;
+  padding: 25px 40px;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -47,7 +47,6 @@ header .menu .btn {
   header .menu .btn ul h4 {
     font-size: 13px;
     font-weight: 700;
-    margin-left: 9px;
   }
   header .menu .btn ul .icon {
     font-size: 12px;
