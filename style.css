@@ -29,26 +29,26 @@ header .menu nav a {
   margin-left: 35px;
   letter-spacing: 1px;
 }
-header .menu .box {
+header .menu .btn {
   display: none;
 }
 @media screen and (max-width: 993px) {
-  header .menu {
-    padding: 17px 150px;
-  }
-  header .menu .box {
+  header .menu .btn {
+    display: block;
     width: 80px;
     border: 1px solid #383b3f;
     border-radius: 6px;
     color: #9b9d9e;
-    padding: 12px 10px;
   }
-  header .menu .box h4 {
+  header .menu .btn ul {
+    display: flex;
+  }
+  header .menu .btn ul h4 {
     font-size: 13px;
     font-weight: 700;
     margin-left: 9px;
   }
-  header .menu .box .icon {
+  header .menu .btn ul .icon {
     font-size: 12px;
     margin-left: 9px;
   }
