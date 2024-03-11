@@ -2,13 +2,15 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-body section {
+
+section {
   padding: 80px 0;
 }
-body .imgbox {
+
+.imgbox {
   overflow: hidden;
 }
-body .imgbox img {
+.imgbox img {
   width: 100%;
 }
 
@@ -152,7 +154,6 @@ header .menu .btn {
   margin: 25px 0 70px;
 }
 #portfolio .box {
-  display: inline-block;
   background-color: white;
   margin-bottom: 20px;
 }
