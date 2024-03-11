@@ -30,6 +30,9 @@ header .menu nav a {
   margin-left: 35px;
   letter-spacing: 1px;
 }
+header .menu nav:hover a {
+  color: #ce7a29;
+}
 header .menu .btn {
   display: none;
 }
@@ -365,6 +368,10 @@ footer .box h5 {
   font-size: 18px;
   margin-right: 15px;
 }
-footer .box:hover li, footer .box:hover h5 {
+footer .box:hover li {
+  background-color: #424649;
+  cursor: pointer;
+}
+footer .box:hover h5 {
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
