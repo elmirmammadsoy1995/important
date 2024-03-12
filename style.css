@@ -347,6 +347,7 @@ header .menu .btn {
 
 footer .box {
   display: flex;
+  margin: 13px 0;
 }
 footer .box h6 {
   font-size: 18px;
