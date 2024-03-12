@@ -173,6 +173,30 @@ header .menu .btn {
   color: #8c9299;
   margin-top: 10px;
 }
+#portfolio .box .imgbox {
+  position: relative;
+}
+#portfolio .box .imgbox .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  top: 0;
+  bottom: 0;
+}
+#portfolio .box .imgbox .icon i {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+}
+#portfolio .box .imgbox:hover .icon {
+  background-color: #f8cb09;
+  opacity: 1;
+}
 
 #about .minibox {
   width: auto;
