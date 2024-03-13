@@ -98,6 +98,9 @@ header .menu .btn {
   font-weight: 700;
   color: #fffcf8;
 }
+#welcome .textbox .btn:hover {
+  background-color: #d9aa00;
+}
 
 #services {
   letter-spacing: 1px;
