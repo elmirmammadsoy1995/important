@@ -262,7 +262,7 @@ header .menu .btn {
   font-size: 45px;
   font-weight: 700;
   color: #212529;
-  margin: 20px 0 20px;
+  margin: 20px 0;
 }
 #team h3 {
   font-size: 18px;
@@ -302,8 +302,9 @@ header .menu .btn {
   padding: 12px 14px;
   margin: 20px 10px 50px;
 }
-#team .box ul:hover li {
+#team .box ul li:hover {
   cursor: pointer;
+  background-color: #424649;
 }
 #team .textbox {
   width: 780px;
