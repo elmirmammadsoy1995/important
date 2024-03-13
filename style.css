@@ -324,7 +324,7 @@ header .menu .btn {
   background-image: url(assets/20.png);
   background-color: #212529;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 #contact h1 {
   font-size: 45px;
