@@ -195,17 +195,17 @@ header .menu .btn {
   margin-top: 10px;
 }
 
-#about .minibox {
+#about .textbox {
   width: auto;
   margin-bottom: 50px;
   letter-spacing: 1px;
 }
-#about .minibox h1 {
+#about .textbox h1 {
   font-size: 36px;
   font-weight: 700;
   color: #212529;
 }
-#about .minibox h4 {
+#about .textbox h4 {
   font-size: 18px;
   color: #7d7e81;
   margin: 20px 0;
@@ -237,7 +237,7 @@ header .menu .btn {
   border-radius: 50%;
   margin-left: 60px;
 }
-#about .box .march, #about .box .july {
+#about .box .month {
   margin-right: 50px;
 }
 #about .wdth {
