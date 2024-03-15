@@ -240,18 +240,18 @@ header .menu .btn {
 #about .box .month {
   margin-right: 50px;
 }
-#about .wdth {
+#about .minibox {
   width: 156px;
   border: 7px solid #e9ecef;
+  padding: 35px 30px;
   border-radius: 50%;
   background-color: #ffc800;
   margin-right: 565px;
 }
-#about .wdth h5 {
+#about .minibox h5 {
   font-size: 22px;
   font-weight: 700;
   color: #fffefd;
-  padding: 35px 30px;
   line-height: 1.1;
 }
 
