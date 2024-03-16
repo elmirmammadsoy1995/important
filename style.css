@@ -368,6 +368,7 @@ header .menu .btn {
 }
 
 footer .box {
+  width: 400px;
   display: flex;
   margin: 13px 0;
 }
