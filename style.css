@@ -196,7 +196,6 @@ header .menu .btn {
 
 #about .textbox {
   width: auto;
-  margin-bottom: 50px;
   letter-spacing: 1px;
 }
 #about .textbox h1 {
@@ -210,13 +209,13 @@ header .menu .btn {
   margin: 20px 0;
 }
 #about .box {
-  margin-bottom: 80px;
+  margin-top: 50px;
 }
 #about .box .textbox {
   width: 450px;
   padding: 0 10px 40px 20px;
   letter-spacing: 0.5px;
-  margin-left: 65px;
+  margin-left: 60px;
 }
 #about .box .textbox h2, #about .box .textbox h3 {
   font-size: 25px;
@@ -230,8 +229,8 @@ header .menu .btn {
   line-height: 1.6;
 }
 #about .box .imgbox {
-  width: 156px;
-  height: 156px;
+  width: 160px;
+  height: 160px;
   border: 7px solid #e9ecef;
   border-radius: 50%;
   margin-left: 60px;
@@ -240,18 +239,17 @@ header .menu .btn {
   margin-right: 50px;
 }
 #about .minibox {
-  width: 156px;
+  width: 160px;
   border: 7px solid #e9ecef;
-  padding: 35px 30px;
+  padding: 33px 30px;
   border-radius: 50%;
   background-color: #ffc800;
-  margin-right: 565px;
 }
 #about .minibox h5 {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 700;
   color: #fffefd;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 #team {
