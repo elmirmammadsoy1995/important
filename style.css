@@ -319,6 +319,7 @@ header .menu .btn {
 }
 #social .box .imgbox {
   width: 150px;
+  margin: 25px 0;
 }
 #social .box .imgbox img:hover {
   cursor: pointer;
