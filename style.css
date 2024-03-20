@@ -312,9 +312,16 @@ header .menu .btn {
   line-height: 1.5;
 }
 
-#social .imgbox {
+#social .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social .box .imgbox {
   width: 150px;
-  margin-bottom: 30px;
+}
+#social .box .imgbox img:hover {
+  cursor: pointer;
 }
 
 #contact {
