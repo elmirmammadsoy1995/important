@@ -365,9 +365,8 @@ header .menu .btn {
 }
 
 footer .box {
-  width: 400px;
   display: flex;
-  margin: 13px 0;
+  margin: 15px 0;
 }
 footer .box h6 {
   font-size: 18px;
