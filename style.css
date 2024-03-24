@@ -375,34 +375,47 @@ header .menu .btn {
   color: #fffcf8;
 }
 
-footer .box {
-  display: flex;
-  margin: 18px 0px;
+footer {
+  padding: 22px 0;
 }
-footer .box h6 {
+footer h6 {
+  color: #424750;
   font-size: 18px;
-  color: #595966;
-  word-spacing: 1px;
 }
-footer .box ul {
+footer ul {
   display: flex;
+  justify-content: center;
 }
-footer .box ul li {
-  font-size: 18px;
-  padding: 12px 15px;
-  margin: 0 10px;
-  color: #ffffff;
+footer ul li .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
   background-color: #212529;
-  border-radius: 50%;
+  color: #ffffff;
+  border-radius: 30px;
+  margin: 0 10px;
+  cursor: pointer;
 }
-footer .box ul li:hover {
+footer ul li .icon:hover {
   background-color: #424649;
-  cursor: pointer;
+  transition: 0.5s;
 }
-footer .box h5 {
-  font-size: 18px;
-  margin-right: 15px;
+footer .minibox {
+  display: flex;
+  justify-content: center;
 }
-footer .box h5:hover {
-  cursor: pointer;
+footer .minibox p {
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  footer .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .menu ul {
+    margin: 15px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
