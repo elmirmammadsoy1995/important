@@ -343,18 +343,18 @@ header .menu .btn {
   color: #697075;
   margin: 20px 0 70px;
 }
-#contact .box {
+#contact .place {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-#contact .box input {
+#contact .place input {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 25px;
   height: 67px;
 }
-#contact .box textarea {
+#contact textarea {
   font-size: 18px;
   font-weight: 700;
   padding: 25px 15px;
@@ -366,6 +366,8 @@ header .menu .btn {
   border-radius: 5px;
   background-color: #b49211;
   margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
 #contact .btn h4 {
   font-size: 18px;
