@@ -1,41 +1,40 @@
 header
     .menu
         background-color: #212529
-        width: 100%
-        padding: 25px 50px
+        // width: 100%
+        // padding: 25px 50px
+        padding: 10px 0
+        height: 70px
         position: fixed
         z-index: 1
         left: 0
+        right: 0
         .imgbox
             width: 140px
-        nav
-            a
-                font-size: 18px
-                margin-left: 35px
-                letter-spacing: 1px
-                &:hover
-                    color: #ce7a29
-        .btn
-            display: none
-
-    @media screen and ( max-width: 993px )
-        .menu
-            padding: 25px 30px
-            .btn
-                display: block
-                width: 80px
-                border: 1px solid #383b3f
-                border-radius: 6px
-                color: #9b9d9e
-                ul
-                    display: flex
-                    justify-content: center
-                    align-items: center
-                    h4
-                        font-size: 13px
-                        font-weight: 700
-                    .icon
-                        font-size: 12px
-                        margin-left: 9px
-            nav
-                display: none
+            margin-left: 120px
+    .btn
+        display: flex
+        align-items: center
+        color: #ffff
+        border: 1px solid #383b3f
+        letter-spacing: 1px
+        opacity: 0.6
+        padding: 6px
+        display: none
+        h4
+            font-size: 14px
+            font-weight: 700
+            cursor: pointer
+        .icon
+            margin-left: 7px
+            cursor: pointer
+    nav
+        margin-right: 120px
+        a
+            font-size: 18px
+            // margin-left: 35px
+            margin: 0 20px
+            letter-spacing: 1px
+            cursor: pointer
+            &:hover
+                color: #ce7a29

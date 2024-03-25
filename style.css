@@ -16,53 +16,47 @@ section {
 
 header .menu {
   background-color: #212529;
-  width: 100%;
-  padding: 25px 50px;
+  padding: 10px 0;
+  height: 70px;
   position: fixed;
   z-index: 1;
   left: 0;
+  right: 0;
 }
 header .menu .imgbox {
   width: 140px;
+  margin-left: 120px;
 }
-header .menu nav a {
-  font-size: 18px;
-  margin-left: 35px;
+header .btn {
+  display: flex;
+  align-items: center;
+  color: white;
+  border: 1px solid #383b3f;
   letter-spacing: 1px;
-}
-header .menu nav a:hover {
-  color: #ce7a29;
-}
-header .menu .btn {
+  opacity: 0.6;
+  padding: 6px;
   display: none;
 }
-@media screen and (max-width: 993px) {
-  header .menu {
-    padding: 25px 30px;
-  }
-  header .menu .btn {
-    display: block;
-    width: 80px;
-    border: 1px solid #383b3f;
-    border-radius: 6px;
-    color: #9b9d9e;
-  }
-  header .menu .btn ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  header .menu .btn ul h4 {
-    font-size: 13px;
-    font-weight: 700;
-  }
-  header .menu .btn ul .icon {
-    font-size: 12px;
-    margin-left: 9px;
-  }
-  header .menu nav {
-    display: none;
-  }
+header .btn h4 {
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+header .btn .icon {
+  margin-left: 7px;
+  cursor: pointer;
+}
+header nav {
+  margin-right: 120px;
+}
+header nav a {
+  font-size: 18px;
+  margin: 0 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+header nav a:hover {
+  color: #ce7a29;
 }
 
 #welcome {
