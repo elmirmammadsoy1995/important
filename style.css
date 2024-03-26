@@ -130,12 +130,12 @@ header nav a:hover {
 #welcome .box .textbox .btn:hover {
   background-color: #d9aa00;
 }
-@media screen and (max-width: 768) {
-  #welcome .box .box .textbox h3 {
-    font-size: 20px;
-  }
-  #welcome .box .box .textbox h1 {
+@media screen and (max-width: 768px) {
+  #welcome .box .textbox h3 {
     font-size: 30px;
+  }
+  #welcome .box .textbox h1 {
+    font-size: 70px;
   }
 }
 
