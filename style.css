@@ -97,34 +97,46 @@ header nav a:hover {
   background-position: center center;
   background-size: cover;
 }
-#welcome .textbox {
+#welcome .box {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   letter-spacing: 3px;
   word-spacing: 2px;
-  margin-top: 60px;
 }
-#welcome .textbox h3 {
+#welcome .box .textbox h3 {
   font-size: 40px;
   color: #ffffff;
   margin-bottom: 30px;
 }
-#welcome .textbox h1 {
+#welcome .box .textbox h1 {
   font-size: 80px;
   font-weight: 700;
   color: #ffffff;
+  margin-bottom: 60px;
 }
-#welcome .textbox .btn {
+#welcome .box .textbox .btn {
   padding: 20px 45px;
   border-radius: 5px;
   background-color: #ffc800;
-  margin: 70px 0 0 0;
 }
-#welcome .textbox .btn h4 {
+#welcome .box .textbox .btn h4 {
   font-size: 18px;
   font-weight: 700;
   color: #fffcf8;
+  cursor: pointer;
 }
-#welcome .textbox .btn:hover {
+#welcome .box .textbox .btn:hover {
   background-color: #d9aa00;
+}
+@media screen and (max-width: 768) {
+  #welcome .box .box .textbox h3 {
+    font-size: 20px;
+  }
+  #welcome .box .box .textbox h1 {
+    font-size: 30px;
+  }
 }
 
 #services {
