@@ -333,6 +333,7 @@ header nav a:hover {
 }
 #team .box {
   text-align: center;
+  padding-bottom: 50px;
 }
 #team .box .imgbox {
   width: 220px;
@@ -372,8 +373,8 @@ header nav a:hover {
   align-items: center;
   height: 15px;
   width: 15px;
-  cursor: pointer;
   transition: 0.5s;
+  cursor: pointer;
 }
 #team .box ul li .icon:hover {
   background-color: #424649;
@@ -384,8 +385,26 @@ header nav a:hover {
 #team .textbox p {
   font-size: 19px;
   color: #74797f;
-  margin: 40px 0 50px;
+  margin-bottom: 50px;
   line-height: 1.5;
+}
+@media screen and (max-width: 576px) {
+  #team .textbox h1 {
+    font-size: 38px;
+  }
+  #team .textbox h3 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #team .textbox h3 {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #team .textbox p {
+    font-size: 20px;
+  }
 }
 
 #social .box {

@@ -11,6 +11,7 @@
         margin: 30px 0 65px
     .box
         text-align: center
+        padding-bottom: 50px
         .imgbox
             width: 220px
             border: 8px solid #dfe0e1
@@ -43,14 +44,31 @@
                     align-items: center
                     height: 15px
                     width: 15px
-                    cursor: pointer
                     transition: 0.5s
+                    cursor: pointer
                     &:hover
-                        background-color: #424649
+                        background-color: #424649                       
     .textbox
         width: 850px
         p
             font-size: 19px
             color: #74797f
-            margin: 40px 0 50px
+            margin-bottom: 50px
             line-height: 1.5
+
+    @media screen and ( max-width: 576px )
+        .textbox
+            h1
+                font-size: 38px
+            h3
+                font-size: 17px
+
+    @media screen and ( max-width: 768px )           
+        .textbox
+            h3
+                font-size: 19px
+
+    @media screen and ( max-width: 992px )
+        .textbox
+            p
+                font-size: 20px
