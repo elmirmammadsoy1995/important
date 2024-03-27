@@ -407,17 +407,25 @@ header nav a:hover {
   }
 }
 
+#social {
+  padding: 60px 0;
+}
 #social .box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0 50px;
 }
 #social .box .imgbox {
-  width: 150px;
-  margin: 25px 0;
+  width: 120px;
 }
-#social .box .imgbox img:hover {
-  cursor: pointer;
+#social .box .ms {
+  width: 200px;
+}
+#social .box .ibm {
+  width: 200px;
+}
+@media screen and (max-width: 576px) {
+  #social .box .imgbox {
+    margin: 15px 0;
+  }
 }
 
 #contact {
