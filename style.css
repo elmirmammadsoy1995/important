@@ -150,7 +150,7 @@ header nav a:hover {
   margin-bottom: 10px;
 }
 #services .textbox h3 {
-  font-size: 18px;
+  font-size: 20px;
   color: #6c757d;
 }
 #services .box {
@@ -181,6 +181,23 @@ header nav a:hover {
   font-size: 18px;
   color: #6c757d;
   line-height: 1.6;
+}
+@media screen and (max-width: 768px) {
+  #services .textbox {
+    padding-bottom: 50px;
+  }
+  #services .textbox h1 {
+    font-size: 35px;
+  }
+  #services .textbox h2 {
+    font-size: 25px;
+  }
+  #services .textbox h3 {
+    font-size: 18px;
+  }
+  #services .textbox p {
+    font-size: 17px;
+  }
 }
 
 #portfolio {
