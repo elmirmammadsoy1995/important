@@ -321,15 +321,15 @@ header nav a:hover {
   background-color: #f8f9fa;
 }
 #team h1 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   color: #212529;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 #team h3 {
   font-size: 18px;
   color: #70757d;
-  margin-bottom: 60px;
+  margin: 30px 0 65px;
 }
 #team .box {
   text-align: center;
@@ -341,16 +341,18 @@ header nav a:hover {
 }
 #team .box .textbox {
   width: auto;
+  text-align: center;
+  margin: 15px 0;
 }
 #team .box .textbox h2 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   color: #212529;
-  margin: 20px 0 10px;
 }
 #team .box .textbox h4 {
   font-size: 18px;
   color: #707981;
+  margin-top: 10px;
 }
 #team .box ul {
   display: flex;
@@ -361,19 +363,28 @@ header nav a:hover {
   color: white;
   background-color: #212529;
   border-radius: 50%;
-  padding: 12px 14px;
-  margin: 20px 10px 50px;
+  padding: 13px;
+  margin: 10px;
 }
-#team .box ul li:hover {
+#team .box ul li .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  width: 15px;
   cursor: pointer;
+  transition: 0.5s;
+}
+#team .box ul li .icon:hover {
   background-color: #424649;
 }
 #team .textbox {
-  width: 780px;
+  width: 850px;
 }
 #team .textbox p {
   font-size: 19px;
   color: #74797f;
+  margin: 40px 0 50px;
   line-height: 1.5;
 }
 
