@@ -414,15 +414,15 @@ header nav a:hover {
   padding: 0 50px;
 }
 #social .box .imgbox {
-  width: 120px;
+  width: 150px;
 }
 #social .box .ms {
   width: 200px;
 }
 #social .box .ibm {
-  width: 200px;
+  width: 100px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   #social .box .imgbox {
     margin: 15px 0;
   }
